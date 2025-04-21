@@ -33,9 +33,9 @@ OBJET = $(addprefix $(OBJDIR)/, \
 
 endif
 
-CXX        = g++-9
+CXX        = g++
 CUDA       = /usr/local/cuda-12.2
-CXXCUDA    = /usr/bin/g++-9
+CXXCUDA    = /usr/bin/g++
 NVCC       = $(CUDA)/bin/nvcc
 
 ifdef gpu
